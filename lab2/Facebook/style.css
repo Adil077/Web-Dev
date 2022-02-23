@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f2f6;
+    align-items: center;
+}
+
+.wrapper {
+    width: 980px;
+}
+
+.home-page {
+    display: flex;
+    align-items: center;
+    margin: 128px 0 164px 0;
+}
+
+.home-page__info {
+    width: 580px;
+    padding-right: 64px;
+    align-self: baseline;
+    padding-top: 48px;
+}
+
+.home-page__description {
+    font-size: 28px;
+    font-weight: 400;
+}
+.login {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px
+}
+.login-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    padding: 16px 0 28px 0;
+    width: 396px;
+}
+.login__input {
+    border-bottom: 1px solid #dddfe2;
+    padding-bottom: 24px;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.login__input,
+.login-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login__input input {
+    width: 364px;
+    padding: 14px 16px;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    border-radius: 6px;
+}
+
+.login__input input:focus {
+    outline-color: #1877f2;
+}
+
+.btn {
+    border-radius: 6px;
+    outline: none;
+}
+
+.login__btn {
+    width: 364px;
+    background-color: #1877f2;
+    border: none;
+    font-size: 20px;
+    color: white;
+    line-height: 48px;
+    padding: 0 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.forgot-password-link {
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.create-account-btn {
+    width: 196px;       
+    background-color: #42b72a;
+    border: none;
+    color: white;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    font-weight: bold;
+}
+
+.note {
+    border-top: none;
+    color: #1c1e21;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding-top: 0;
+}
+
+.create-page-link {
+    color: #1c1e21;
+    font-weight: 600;
+}
+
+footer {
+    background-color: #fff;
+    padding: 20px 0 0;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 8px 0;
+}
+
+ul li a, .author-rules {
+    color: #737373;
+    font-size: 12px;
+}
+
+.author-rules {
+    margin-top: 24px;
+    margin-bottom: 128px;
+    display: block;
+}
+
+footer .wrapper {
+    margin: 0 auto;
+}
+
+.lang-list {
+    border-bottom: 0.1px solid #dddfe2;
+}
+
+#add-lang-btn {
+    background: url('./plus.png') center no-repeat;
+    background-size: 12px 12px;
+    background-color: #f5f6f7;
+    border:1px solid #ccd0d5;
+    width: 32px;
+    height: 20px;
+    cursor: pointer;
+    border-radius: 2px;
+}

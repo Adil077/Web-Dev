@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #5cd895;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container {
+    width: 30%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #05386b;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    line-height: 96px;
+}
+
+#main {
+    margin-top: 96px;
+}
+
+#main h2 {
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: black;
+}
+
+#new_target_container {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 36px;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+input[type="text"] {
+    width: 400px;
+    height: 48px;
+    font-size: 24px;
+    text-indent: 12px;
+}
+
+input[type="submit"] {
+    border: none;
+    width: 48px;
+    background: url('add.svg') no-repeat;
+    color: white;
+    text-transform: uppercase;
+}
+
+input[type="submit"]:hover {
+    animation: bg;
+    animation-duration: 0.8s;
+}
+
+#list {
+    list-style-type: none;
+}
+
+li {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+.btn_delete {
+    background: url('cross-remove-sign.svg') no-repeat;
+    width: 36px;
+    height: 36px;
+    background-size: 40%;
+    border: none;
+    background-position: center;
+    font-weight: bold;
+    border-radius: 50%;
+}
+
+.btn_delete:hover {
+    background-color: red;
+    animation: bg 0.5s;
+    animation-duration: 1s;
+}
+
+@keyframes bg {
+    0% {
+        transform: rotate(0);
+    }
+    50% {
+        transform: rotate(90deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+
+.item_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EDF5E1;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 12px;
+    padding-right: 12px;
+    box-sizing: border-box;
+}
+
+
+input[type="checkbox"] {
+    width: 32px;
+    height: 32px;
+    content: "";
+    border-radius: 32px;
+}
+
+.itemName {
+    color: #05386b;
+}
+
+#btn_remove_all {
+    border: none;
+    width: 96px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+.done {
+    color: gray;
+}
+
+.in_process {
+    color: black;
+}

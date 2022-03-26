@@ -1,0 +1,27 @@
+
+.container{
+    margin: 0 auto;
+    max-width: 1400px;
+}
+.cat-cont{
+    display: grid;
+    justify-content: center;
+    background-color: brown;
+    width: 200px;
+    height: 300px;
+    border-radius: 4px;
+    padding: 10px;
+    margin-right: 10px;
+}
+.cat-cont__item{
+    color: white;
+    cursor: pointer;
+}
+.cat-cont__item:hover{
+    color: aqua;
+}
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/

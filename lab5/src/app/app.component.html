@@ -1,0 +1,19 @@
+<app-top-bar></app-top-bar>
+
+
+<div class="container" >
+  <div class="cat-cont">
+    <div class="cat-cont__item" value="1" (click)="toCat(1)">PC</div>
+    <div class="cat-cont__item" value="2" (click)="toCat(2)">Storage</div>
+    <div class="cat-cont__item" value="3" (click)="toCat(3)">Gaming</div>
+    <div class="cat-cont__item" value="4" (click)="toCat(4)">Virtual</div>
+  </div>  
+  <!-- <router-outlet></router-outlet> -->
+  <app-product-list [cat]="cat"></app-product-list>
+</div>
+
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+-->

@@ -1,0 +1,29 @@
+.header-links__list{
+    display: flex;
+    list-style: none;
+    justify-content: left;
+    background-color: rgba(0, 0, 255, 0.425);
+    gap: 20px;
+    font-size: 24px;
+}
+.header-links{
+    margin-bottom: 50px;
+}
+.header-links__link{
+    text-decoration: none;
+    background-color: red;
+    color: #fff;
+    padding: 16px;
+}
+.header-links__link.last{
+    margin-left: 900px;
+}
+#about.active{
+    color: brown;
+}
+#home.active{
+    color: brown;
+}
+#albums.active{
+    color: brown;
+}

@@ -1,0 +1,16 @@
+<button (click)="back()" class="btn-category">
+    Назад
+</button>
+<div *ngIf="loaded" class="container">
+    <div>
+        <img src={{item.thumbnailUrl}} alt="item image">
+        <h1>{{item.title}}</h1>
+    </div>
+</div>
+
+<div *ngIf="loaded" class="editing-container">
+    <input [(ngModel)]="item.title" id="title" type="text" placeholder="title">
+    <button (click)="updateItem()">Edit</button>    
+</div>
+
+<div class="loader" *ngIf="!loaded" >Загрузка</div>

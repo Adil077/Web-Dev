@@ -1,0 +1,6 @@
+<main class="categ-container" *ngIf="loaded" >
+    <a routerLink="{{item.id}}" class="categ-container__item" *ngFor="let item of albums">
+        {{item.title}}
+    </a>
+</main>
+<div style="font-size: large;" class="loader" *ngIf="!loaded">Загрузка</div>

@@ -1,0 +1,15 @@
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid green;
+    padding: 30px;
+    gap: 10px;
+    list-style-type: none;
+}
+li{
+    border: 1px dotted red;
+    padding: 15px;
+}
+li:hover{
+    border: 1px solid red;
+}

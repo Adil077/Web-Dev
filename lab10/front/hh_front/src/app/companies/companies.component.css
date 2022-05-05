@@ -1,0 +1,26 @@
+div{
+    display: flex;
+    justify-content: center;
+}
+ul{
+    display: grid;
+    border: 1px solid green;
+    width: 500px;
+    padding: 30px;
+    gap: 10px;
+    list-style-type: none;
+}
+li{
+    border: 1px dotted red;
+    padding: 15px;
+}
+li:hover{
+    border: 1px solid red;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+h1{
+    border-bottom: 1px solid black;
+}

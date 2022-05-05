@@ -1,0 +1,29 @@
+header{
+    display: grid;
+    justify-content: center;
+    background-color: lightgray;
+}
+div{
+    display: grid;
+    justify-content: center;
+    background-color: lightgray;
+    border-radius: 1px solid red;
+}
+input{
+    margin-bottom: 10px;
+}
+h3{
+    border-bottom: 1px solid black;
+}
+button{
+    border-radius: 3px;
+    border: none;
+    padding: 20px;
+    background-color: brown;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgba(165, 42, 42, 0.644);
+}
